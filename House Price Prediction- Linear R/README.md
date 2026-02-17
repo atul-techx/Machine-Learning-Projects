@@ -32,7 +32,7 @@ end-to-end Machine Learning workflow.
 - Scikit-learn  
 
 ## 📁 Project Structure
-
+```text
 House Price Prediction- Linear R/
 │
 ├── data/
@@ -46,7 +46,7 @@ House Price Prediction- Linear R/
 │
 ├── Requirements.txt
 └── README.md
-
+```
 
 
 ## ⚙️ How to Run the Project
@@ -54,15 +54,29 @@ House Price Prediction- Linear R/
 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/atul-techx/Machine-Learning-Projects.git
-
-2️⃣ Navigate to the project folder
-
+```
+2️⃣ Go to project folder
+```bash
 cd "House Price Prediction- Linear R"
-
-3️⃣ Install dependencies
-
+```
+3️⃣ Create virtual environment (optional but recommended)
+```bash
+python -m venv venv
+```
+4️⃣ Activate virtual environment
+Windows
+```bash
+venv\Scripts\activate
+```
+Mac / Linux
+```bash
+source venv/bin/activate
+```
+5️⃣ Install requirements
+```bash
 pip install -r Requirements.txt
-
-4️⃣ Run the model
-
+```
+6️⃣ Run the project
+```bash
 python src/linear_regression.py
+```
